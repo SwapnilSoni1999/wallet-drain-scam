@@ -1,0 +1,78 @@
+{
+  "name": "vegan",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@emotion/react": "^11.9.3",
+    "@emotion/styled": "^11.9.3",
+    "@mui/icons-material": "^5.8.4",
+    "@mui/material": "^5.8.6",
+    "@mui/x-data-grid": "^5.12.3",
+    "@reduxjs/toolkit": "^1.8.3",
+    "@testing-library/jest-dom": "^5.16.4",
+    "@testing-library/react": "^13.3.0",
+    "@testing-library/user-event": "^13.5.0",
+    "awesome-phonenumber": "^6.8.0",
+    "axios": "^0.27.2",
+    "body-parser": "^1.20.2",
+    "concurrently": "^8.2.2",
+    "cookie-parser": "^1.4.6",
+    "cookie-session": "^2.1.0",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "ethers": "^5.6.9",
+    "execp": "^0.0.1",
+    "express": "^4.19.2",
+    "express-device": "^0.4.2",
+    "fs": "^0.0.1-security",
+    "hpp": "^0.2.3",
+    "http-status": "^1.7.4",
+    "jimp": "^0.22.12",
+    "mongoose": "^8.3.4",
+    "morgan": "^1.10.0",
+    "mysql": "^2.18.1",
+    "passport": "^0.7.0",
+    "path": "^0.12.7",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-redux": "^8.0.2",
+    "react-responsive-carousel": "^3.2.23",
+    "react-router-dom": "^6.3.0",
+    "react-scripts": "^4.0.3",
+    "request": "^2.88.2",
+    "request-ip": "^3.3.0",
+    "truffle": "^5.5.20",
+    "validator": "^13.11.0",
+    "web-vitals": "^2.1.4",
+    "web3": "^1.0.0-beta.55"
+  },
+  "scripts": {
+    "start": "concurrently \"npm run start-server\" \"npm run start-front\" --kill-others --kill-others-on-fail",
+    "start-server": "nodemon server/index.js --watch server/*",
+    "start-front": "react-scripts --openssl-legacy-provider start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
