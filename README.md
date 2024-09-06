@@ -36,3 +36,8 @@ https://polygonscan.com/tx/0xee1eb7a28fa269234f88f4fdb6339c6225c94926d9fab4105b8
 <hr>
 
 while writing this file I just realised Vegan **"ROBS"** DAO 
+Another resource where other web3 developers faced such issue: https://www.reddit.com/r/ethdev/comments/1550dsd/i_fell_victim_to_my_firstever_wallet_drain_scam/?share_id=ZT9fBq2Wtvf3u7pZafUaE&utm_name=androidcss
+
+After facing such issue I realised:
+1. always run other's malicious/fishy code in a VM or a cloud server
+2. never trust anyone.  
