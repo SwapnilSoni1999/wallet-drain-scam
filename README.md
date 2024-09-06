@@ -2,7 +2,7 @@
 
 <hr>
 
-On 6th Sept 2024 at 12:01am I got wallet drainer malware attack on my Meamask wallet. The indecent began with a reddit user posting for a eth developer requirement.
+On 6th Sept 2024 at 12:01am I got wallet drainer malware attack on my Metamask wallet. The indecent began with a reddit user posting for a eth developer requirement.
 Link to the post: https://www.reddit.com/r/ethdev/comments/1f9ggoo/web3_integration_and_smart_contract_developer/
 the user: https://www.reddit.com/user/Fun-Recover-4396/
 
